@@ -128,3 +128,5 @@ const reference = ref(db, 'Users/Posters/' + auth.currentUser?.uid + '/drafts');
 onValue(reference, (snapshot) => {
   // Automatically updates UI when data changes
 });
+
+This eliminated the need for "pull-to-refresh" in most screens and created a seamless user experience.
